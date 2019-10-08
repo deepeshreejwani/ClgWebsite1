@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Template
+        </title>
+    </head>
+    
+    <body>
+    
+        <!--FB embed-->
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
+        <!--FB embed close-->
+
+        <div class="header1 d-flex justify-content-center">
+            <a href="" class="mt-2">Administration</a>
+            <p class="mt-2">|</p>
+            <a href="" class="mt-2">Placements</a>
+            <p class="mt-2">|</p>
+            <a href="" class="mt-2">Student Welfare</a>
+            <p class="mt-2">|</p>
+            <a href="" class="mt-2">Infrastructure</a>
+            <p class="mt-2">|</p>
+            <a href="" class="mt-2">Information Systems</a>
+            <p class="mt-2">|</p>
+            <a href="" class="mt-2">Research & Devalopment</a>
+            <p class="mt-2">|</p>
+            <a href="" class="mt-2">Tender</a>
+            <p class="mt-2">|</p>
+            <a href="" class="mt-2">Webmail</a>
+        </div>
+
+        <div class="header2">
+            <div class="container d-flex">
+                <div class="container">
+                    <a href=""><img src="logo.png" alt="logo" height="70px"></a>
+                </div>
+                <div class="d-flex flex-row-reverse">
+                    <a href="" class="mt-4 text-center">Alumni</a>
+                    <p class="mt-4 mx-3">|</p>
+                    <a href="" class="mt-4 text-center">Academics</a>
+                    <p class="mt-4 mx-3">|</p>
+                    <a href="" class="mt-4 text-center">Faculty</a>
+                    <p class="mt-4 mx-3">|</p>
+                    <a href="" class="mt-4 text-center">Students</a>
+                    <p class="mt-4 mx-3">|</p>
+                    <a href="" class="mt-4 text-center">Admissions</a>
+                    <p class="mt-4 mx-3">|</p>
+                    <a href="" class="mt-4 text-center ps">About Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hr1">
+        </div>
+
+        <div class="mainPage">
+
+        </div>
+
+        <div class="black text-center pt-4">
+            <img src="logo2.png" alt="" height="300px">
+            <h1>MISSION 2026</h1>
+            <h2>Dream Together, Build Together</h2>
+            <h3>Explore More...</h3>
+            <img class="downArrow" src="rightArrow.png" alt="" height="30px">
+        </div>
+        
+        <div class="Div1">
+            <div class="text-center pt-5">
+                <h1>IIT ISM HIGHLIGHTS</h1>
+            </div>
+            <div class="container d-flex text-center">
+                <div class="div1-1 div1-1-1 col-lg-5 px-0">
+                    <img class="imgDiv1-1" src="bgClg.jpeg" alt="" height="100%" width="100%">
+                    <p>Independence Day Celebration at IIT ISM Dhanbad.</p>
+                </div>
+                <div class="div1-1 div1-1-2 px-0 col-lg-3">
+                    <div class="div1-1-2-1">
+                        <h1 class="my-0 py-0 pt-5">Campus</h1>
+                        <h2 class="my-0 py-0">Events</h2>
+                    </div>
+                    <div class="div1-1-2-2">
+                        <h1 class="my-0 py-0 pt-5">Innovative</h1>
+                        <h2 class="my-0 py-0">Innitiatives</h2>
+                    </div>
+                </div>
+                <div class="div1-1 div1-1-3 col-lg-3 px-0">
+                    <div class="head my-0 py-0">
+                        <p class="pt-2">Announcements</p>
+                    </div>
+                    <div class="my-0 py-0 content">
+                        content
+                    </div>
+                    <div class="footer">
+                        <a href=""><p class="pt-2">See More...</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex text-center">
+                    <div class="div1-2 div1-2-1 col-lg-3 px-0">
+                        <div class="fbContent px-0 py-0">
+                            <div class="fb-page" data-height="225px" data-width="300px" data-href="https://www.facebook.com/IITISMDHNB/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/IITISMDHNB/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/IITISMDHNB/">Indian Institute of Technology ISM Dhanbad</a></blockquote></div>                        
+                        </div>
+                        <div class="black1 black1-1 px-0 py-0">
+                           <img class="mt-4" src="fb.png" alt="" height="100px">
+                           <p class="mt-2">Facebook</p>
+                            <img class="mb-5 imgArrow" src="rightArrow.png" alt="" height="30px">
+                        </div>
+                    </div>
+                        
+                    <div class="div1-2 div1-2-2 col-lg-3 px-0 py-0">
+                        <div class="twitterContent px-0 py-0">
+                            <a class="twitter-timeline" data-height="225px" data-width="300px" href="https://twitter.com/IITISM_DHANBAD?ref_src=twsrc%5Etfw">Tweets by IITISM_DHANBAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="black1 black1-2 px-0 py-0">
+                            <img class="mt-4" src="twitter.png" alt="" height="100px">
+                            <p class="mt-2">Twitter</p>
+                            <img class="mb-5 imgArrow" src="rightArrow.png" alt="" height="30px">
+                        </div>
+                    </div>
+                    <div class="div1-2 div1-2-3 col-lg-5 px-0">
+                        <div class="black2 px-0 mx-0">
+                            <p1>Media</p1>
+                            <br>
+                            <p2>Coverage</p2>                                
+                        </div>    
+                        <img class="mediaImg" src="news1.jpeg" alt="" height="100%">
+                    </div>
+                </div>
+            </div>        
+
+
+        <div class="Div2">
+            <!--Ql tab-->
+                <div class="qlMenu">
+                    <div class="card-title text-center pt-3 pb-1">
+                            <p>Quick Links</p>
+                        </div>
+                        <div class="card-content text-center">
+                            <a href="">
+                                <p>IIT ISM @ 2026: Dream Together! Build Together!</p>
+                            </a>
+                            <hr>
+                            <a href="">
+                                <p>Recruitment @ IIT ISM</p>
+                            </a>
+                            <hr>
+                            <a href="">
+                                <p>Tender</p>
+                            </a>
+                            <hr>
+                            <a href="">
+                                <p>On Line Payment Link</p>
+                            </a>
+                            <hr>
+                            <a href="">
+                                <p>NIRF-DATA</p>
+                            </a>
+                        </div>
+                    </div>
+                <div class="qlTab text-center">
+                    <p>Quick Links</p>
+                    <img class="qlTabImg" src="rightArrow.png" alt="">
+                </div>
+            <!--Ql tab ends-->
+
+            <div class="container d-flex pt-5">
+                <div class="col-lg-6 div2-1 px-4 py-4">
+                    <div class="card py-3" style="height:100%">
+                        <p1>Recent</p1>
+                        <p2>Achievements</p2>
+                        <div class="profImg my-3">
+                            <img src="prof1.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="profContent px-1 py-1">
+                            Our alumnus Mr. Shashi Shankar, B.Tech. Petroleum Engineering, 1982. Presently, the Chairman and Managing Director(CMD) at ONGC Ltd. make it to the 100 Most Influential Chief Executives across industries as per CEOWORLD Magazine.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 div2-2 px-4 py-4">
+                    <div class="card text-center py-3" style="height:100%">
+                        <p1>Research</p1>
+                        <p2>Highlights At IIT ISM</p2>
+                        <div class="reImg1">
+                            <img src="prof1.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="reImg2">
+                            <img src="bg.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="reContent px-1 py-1">
+                            Our alumnus Mr. Shashi Shankar, B.Tech. Petroleum Engineering, 1982. Presently, the Chairman and Managing Director(CMD) at ONGC Ltd. make it to the 100 Most Influential Chief Executives across industries as per CEOWORLD Magazine.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-lg-6 div2-3 px-4 py-4">
+                    <div class="card py-3" style="height:100%">
+                        <p1>Alumnus</p1>
+                        <p2>Bringing Laurels</p2>
+                        <div class="profImg my-3">
+                            <img src="prof1.jpg" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="profContent px-1 py-1">
+                            Our alumnus Mr. Shashi Shankar, B.Tech. Petroleum Engineering, 1982. Presently, the Chairman and Managing Director(CMD) at ONGC Ltd. make it to the 100 Most Influential Chief Executives across industries as per CEOWORLD Magazine.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="Div3">
+        </div>
+
+        <div class="Div4">
+            
+        </div>
+
+        <div class="Div5">
+
+        </div>    
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <script src="jquery.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>

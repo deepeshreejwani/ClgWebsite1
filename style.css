@@ -1,0 +1,826 @@
+/*Fonts*/
+
+@font-face{
+    font-family: leagueSpartan;
+    src: url(leagueSpartan.woff);
+}
+@font-face{
+    font-family: glacialindifference;
+    src: url(glacialIndifference.woff);
+}
+
+/*fonts ends*/
+
+a:hover{
+    text-decoration: none;
+}
+
+/*Shadows*/
+
+.div1-1, .div1-2, .div1-1-2-1, .div1-1-2-2{
+    box-shadow: rgb(150, 148, 148, 0.5) 1px 1px 20px;
+}
+
+/*Shadows Ends*/
+
+/*body*/
+
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*body ends*/
+
+/*Header 1*/
+
+.header1{
+    background-color: #003262;
+    height: 5vh;
+}
+
+.header1 a, .header1 p{
+    color: white;
+    margin-right: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+}
+
+.header1 a:hover{
+    color: orange;
+    text-decoration: none;
+}
+
+/*Header 1 ends*/
+
+/*Header 2*/
+
+.header2{
+    background-color: white;
+    height: 10vh;
+}
+
+.header2 p, .header2 a{
+    color: #003262;
+    font-family: glacialIndifference;
+    font-weight: bold;
+    font-size: 110%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header2 a:hover{
+    text-decoration: none;
+}
+
+.header2 .ps{
+    width: 80px;
+}
+
+/*Header 2 ends*/
+
+/*hr1*/
+
+.hr1{
+    background: #003262;
+    height: 1px;
+}
+
+/*hr1 ends*/
+
+/* Pop Up About */
+
+    @keyframes comeIn{
+        from{
+            opacity: 0.01;
+            z-index: 100;
+        }
+        to{
+            opacity: 1;
+            z-index: 1000;
+        }
+    }
+
+    @keyframes goOut{
+        from{
+            opacity: 1;
+            z-index: 1000;
+        }
+        to{
+            opacity: 0.01;
+            z-index: 100;
+        }
+    }
+
+    .popUpAbout{
+        background-color: white;
+        font-family: glacialIndifference;
+        position: absolute;
+        opacity: 0.01;
+        z-index: 100;
+    }
+
+    .popUpAbout .rightList{
+        background-color: #F0F3F4;
+    }
+
+    .popUpAbout .rightList a{
+        color: #003262;
+        font-size: 18px;
+    }
+
+    .popUpAbout .btn1{
+        width: 100%;
+    }
+
+    .popUpAbout .btn1:hover{
+        background-color: #DDF;
+    }
+
+    .popUpAbout .leftPic img{
+        box-shadow: rgb(150, 148, 148, 0.5) 1px 1px 5px;
+    }
+
+/* Pop Up About ends */
+
+/* Pop Up Academics */
+
+    .popUpAcademics{
+        background-color: white;
+        font-family: glacialIndifference;
+        position: absolute;
+        opacity: 0.01;
+        z-index: 100;
+    }
+
+    .popUpAcademics .rightList{
+        background-color: #F0F3F4;
+    }
+
+    .popUpAcademics .rightList a{
+        color: #003262;
+        font-size: 17px;
+    }
+
+    .popUpAcademics .btn1{
+        width: 100%;
+    }
+
+    .popUpAcademics .btn1:hover{
+        background-color: #DDF;
+    }
+
+    .popUpAcademics .leftPic img{
+        box-shadow: rgb(150, 148, 148, 0.5) 1px 1px 5px;
+    }
+
+/* Pop Up Academics ends*/
+
+/*Main Page*/
+
+.mainPage{
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover; 
+    height: 85vh;
+}
+
+@keyframes moveUpDown{
+    0%{transform: translateY(0px)}
+    50%{transform: translateY(-10px)}
+    100%{transform: translateY(0px)}
+}
+
+@keyframes blackFilm1{
+    from{
+        opacity: 0.01;
+    }
+    to{
+        opacity: 0.9;
+    }
+}
+
+@keyframes blackFilm2{
+    from{
+        opacity: 0.9;
+    }
+    to{
+        opacity: 0.01;
+    }
+}
+
+.black{
+    height: 85vh;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top: 15vh;
+    opacity: 0.01;
+    z-index: 100;
+    font-family: leagueSpartan;
+}
+
+.black h1{
+    font-size: 500%;
+    color: white;
+}
+
+.black h2{
+    font-size: 200%;
+    color: white;
+}
+
+.black h3{
+    font-size: 150%;
+    position: relative;
+    color: white;
+    top: 80px;
+}
+
+.downArrow{
+    position: relative;
+    top: 11vh;
+    animation: moveUpDown 1.5s forwards;
+    animation-iteration-count: infinite;    
+}
+
+/*Main Page Ends*/
+
+/*Div1*/
+
+.Div1{
+    background-color: white;
+    height: 100vh;
+}
+
+.Div1 h1{
+    font-size: 250%;
+    font-family: leagueSpartan;
+    color: #003262;
+}
+
+.div1-1{
+    margin: 10px;
+    height: 39vh;
+}
+
+.div1-2{
+    margin: 10px;
+    height: 30vh;
+}
+
+/* black film 2 */
+
+    @keyframes blurOut{
+        from{
+            filter: blur(0px);
+            opacity: 1;    
+        }
+        to{
+            filter: blur(2px);
+            opacity: 0.5;    
+        }
+    }
+
+    @keyframes blurIn{
+        from{
+            filter: blur(2px);
+            opacity: 0.5;    
+        }
+        to{
+            filter: blur(0px);
+            opacity: 1;    
+        }
+    }
+
+    @keyframes opacityIn{
+        from{opacity: 0.01}
+        to{opacity: 1}
+    }
+
+    @keyframes opacityOut{
+        from{opacity: 1}
+        to{opacity: 0.01}
+    }
+
+    .black2{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0.01;
+        z-index: 1;
+    }
+
+    .mediaImg{
+        z-index: 0;
+    }
+
+    .black2 p2, .black2 p1{
+        position: relative;
+        top: 30%;
+        font-family: leagueSpartan;
+        font-size: 4vh;
+        color: #003262;
+        text-transform: uppercase;
+    }
+
+    .black2 p1{
+        font-size: 34px;
+    }
+
+/* black film 2 ends*/
+
+@keyframes onlyBlurOut{
+    0%{filter: blur(0px)}
+    100%{filter: blur(2px)}
+}
+
+@keyframes onlyBlurIn{
+    0%{filter: blur(2px)}
+    100%{filter: blur(0px)}
+}
+
+.div1-1-1 p{
+    font-size: 100%;
+    color: white;
+    position: relative;
+    top: -50%;
+}
+
+.div1-1-2{
+    box-shadow: none;
+}
+
+.div1-1-2-1{
+    margin-bottom: 4%;
+}
+
+.div1-1-2-1 h1{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+}
+
+.div1-1-2-1 h2{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 20%;
+}
+
+.div1-1 .div1-1-2-1{
+    height: 48%;
+    background-color: #003262;
+}
+
+.div1-1 .div1-1-2-2{
+    height: 48%;
+    background-color: white;
+}
+
+.div1-1-2-2 h1{
+    color: #003262;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 28%;
+}
+
+.div1-1-2-2 h2{
+    color: #003262;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 18%;
+}
+
+.div1-1-3 .head{
+    height: 15%;
+    color: white;
+    background: #003262;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: leagueSpartan;
+}
+
+.div1-1-3 .content{
+    height: 70%;
+    font-size: 2vh;
+}
+
+.div1-1-3 .footer{
+    height: 15%;
+    color: white;
+    background: #003262;
+    font-size: 15px;
+    font-family: helvetica;
+}
+
+.div1-1-3 .footer a{
+    font-family: helvetica;
+    color: white;
+    font-size: 2vh;
+}
+
+.div1-1-3 .footer a:hover{
+    text-decoration: none;
+    color: orange;        
+}
+
+/*Black Films*/
+    .black1{
+        height: 30vh;
+        width: 100%;
+        background-color: #003262;
+        position: absolute;
+        top: 0px;
+    }
+
+    .black1{
+        font-family: leagueSpartan;
+        color: white;
+        font-size: 100%;
+        text-transform: uppercase;
+    }
+
+    @keyframes slideUpDown{
+        0%{transform: translateY(0px)}
+        40%{transform: translateY(-10px)}
+        100%{transform: translateY(0px)}
+    }
+
+    .black1 .imgArrow{
+        animation: slideUpDown 2s forwards;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes slideOut{
+        0%{
+            transform: translateY(0vh) scaleY(1);
+        }
+        100%{
+            transform: translateY(-15vh) scaleY(0);
+        }
+    }
+    
+    @keyframes slideIn{
+        0%{
+            transform: translateY(-15vh) scaleY(0);
+        }
+        100%{
+            transform: translateY(0vh) scaleY(1);
+        }
+    }
+
+
+/*Black Films ends*/
+
+/*Div1 Ends*/
+
+/*Div2*/
+.Div2{
+    background-color: #003262;
+    height: 100vh;
+}
+
+.Div2 p1, p2{
+    font-family: leagueSpartan;
+    text-transform: uppercase;
+    color: #003262;
+    font-size: 20px;
+    position: relative;
+}
+
+.div2-3 p1{
+    font-size: 27px;
+}
+
+.Div2 p1{
+    margin-bottom: -10px;
+}
+
+.div2-2 p1{
+    font-size: 32px;
+}
+
+/*positions*/
+
+    .div2-3 p1, .div2-3 p2, .div2-1 p1, .div2-1 p2{
+        left: 38%;
+    }
+
+/*positions ends*/
+
+.div2-3 p1, .div2-3 p2, .div2-1 p1, .div2-1 p2{
+    z-index: 5;
+}
+
+.div2-1{
+    height: 40vh;
+}
+
+.div2-2{
+    height: 80vh;
+}
+
+.div2-3{
+    position: relative;
+    top: -40vh;
+    height: 40vh;
+}
+
+.div2-1 .card, .div2-2 .card, .div2-3 .card{
+    border-radius: 0px;
+}
+
+/* Contents position */
+
+    .reImg{
+        height: 200px;
+        width: 350px;
+
+    }
+
+    .profImg2{
+        height: 130px;
+        width: 100px;
+        position: relative;
+        left: -150px;
+        top: -150px;
+    }
+
+    .reP{
+        position: relative;
+        top: -130px;
+    }
+
+    .reImg, .profImg2, .reP{
+        box-shadow: rgb(150, 148, 148, 0.5) 1px 1px 5px;
+    } 
+
+    #carouselExampleControls3, #carouselExampleControls1{
+        position: relative;
+        top: -60px;
+        }
+
+    .profImg3{
+        position: relative !important;
+        left: 0px;
+        top: 10px;        
+    }
+
+    .alP{
+        width: 60%;
+        padding: 2px;
+        font-size: 2vh;
+        position: relative;
+        left: 35%;
+        top: -15vh;
+    }
+
+    .profImg3, .alP{
+        box-shadow: rgb(150, 148, 148, 0.5) 1px 1px 5px;
+    }
+
+/* Contents position ends*/
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    position: relative;
+    top: -80px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.carousel-control-prev-icon{
+    left: -20px;
+}
+
+
+/*Quuick links tab*/
+    .qlMenu{
+        background-color: white;
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        left: -300px;
+        top: 220vh;
+        border: white 1px solid;
+        z-index: 5;
+    }
+
+    .qlMenu .card-title{
+        background-color: #003262;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: glacialindifference;
+        color: white;
+    }
+
+    .qlTab{
+        background-color: rgb(207, 204, 204);
+        height: 400px;
+        width: 50px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        position: absolute;
+        top: 220vh;
+        left: 0px;
+        z-index: 5;
+    }
+
+    .qlTab p{
+        width: 150px;
+        transform: rotate(90deg);
+        position: relative;
+        top: 180px;
+        left: -50px;
+        font-family: glacialindifference;
+        font-weight: bold;
+        font-size: 25px;
+        color: #003262;
+    }
+
+    .qlTab img{
+        transform: rotate(-90deg);
+        height: 40px;
+        position: relative;
+        top: 130px;
+        left: 60px;
+    }
+
+    .qlTab:hover{
+        cursor: pointer;
+    }
+
+    @keyframes slideIn1{
+        from{
+            left: 0px;
+        }       
+        to{
+            left: 300px;
+        }
+    }
+
+    @keyframes slideOut1{
+        from{
+            left: 300px;
+        }       
+        to{
+            left: 0px;
+        }
+    }
+
+    @keyframes slideIn2{
+        from{
+            left: -300px;
+        }       
+        to{
+            left: 0px;
+        }
+    }
+
+    @keyframes slideOut2{
+        from{
+            left: 0px;
+        }       
+        to{
+            left: -300px;
+        }
+    }
+
+    @keyframes rotateCC{
+        from{
+            transform: rotate(-90deg);
+        }
+        to{
+            transform: rotate(90deg);
+        }
+    }
+
+    @keyframes rotateC{
+        from{
+            transform: rotate(90deg);
+        }
+        to{
+            transform: rotate(-90deg);
+        }
+    }
+
+    @keyframes fadeOut{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0.5;
+        }
+    }
+
+    @keyframes fadeIn{
+        from{
+            opacity: 0.5;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+/*Quuick links tab ends*/
+
+/*Div2 Ends*/
+
+/*Div3*/
+
+.Div3{
+    background-image: url("bgClg.jpeg");
+    background-size: cover;
+    height: 100vh;    
+}
+
+.Div3 h1{
+    font-family: leagueSpartan;
+    text-transform: uppercase;
+    color: #003262;
+}
+
+#carouselExampleControlsVideo .carousel-control-next-icon, #carouselExampleControlsVideo .carousel-control-prev-icon{
+    top: 0px;
+    background-color: black;
+    opacity: 1;
+}
+
+/*Div3 ends*/
+
+.Div4{
+    background-color: #f7f7f7;
+    height: 50vh;
+    font-family: glacialIndifference;
+    color: #003262;
+}
+
+.controlBtn1-1, .controlBtn1-2{
+    top: 140px;
+}
+
+.controlBtn1-1{
+    left: 100px;
+}
+
+.controlBtn1-2{
+    right: 100px;
+}
+
+.controlBtn1-1 .carousel-control-prev-icon, .controlBtn1-2 .carousel-control-next-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.Div5{
+    background-color: #003262;
+    height: 50vh;
+}
+
+.Div5Cont p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: glacialIndifference;
+}
+
+.Div5Cont a{
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    font-family: glacialIndifference;
+}
+
+.Div5ContP{
+    font-size: 15px !important;
+}
+
+.Div5Cont img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.hrSpl{
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    top: -10px;
+    left: -105px;
+}
+
