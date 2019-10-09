@@ -45,6 +45,7 @@ body{
     margin-right: 1%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vh;
+    margin-top: 1vh;
 }
 
 .header1 a:hover{
@@ -61,11 +62,24 @@ body{
     height: 10vh;
 }
 
+.header2 .img1{
+    height: 10vh;
+    margin-left: 2vh;
+}
+
+.header2 .img2{
+    height: 2vh;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+}
+
 .header2 p, .header2 a{
     color: #003262;
     font-family: glacialIndifference;
     font-weight: bold;
-    font-size: 110%;
+    font-size: 2.5vh;
+    margin-right: 1vw;
+    margin-top: 3vh;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -116,6 +130,7 @@ body{
     .popUpAbout{
         background-color: white;
         font-family: glacialIndifference;
+        font-size: 2vh;
         position: absolute;
         opacity: 0.01;
         z-index: 100;
@@ -123,11 +138,12 @@ body{
 
     .popUpAbout .rightList{
         background-color: #F0F3F4;
+        padding-top: 3vh;
     }
 
     .popUpAbout .rightList a{
         color: #003262;
-        font-size: 18px;
+        font-size: 2vh;
     }
 
     .popUpAbout .btn1{
@@ -140,6 +156,8 @@ body{
 
     .popUpAbout .leftPic img{
         box-shadow: rgb(150, 148, 148, 0.5) 1px 1px 5px;
+        height: 40vh;
+        width: 40vh;
     }
 
 /* Pop Up About ends */
@@ -150,17 +168,19 @@ body{
         background-color: white;
         font-family: glacialIndifference;
         position: absolute;
+        font-size: 2vh;
         opacity: 0.01;
         z-index: 100;
     }
 
     .popUpAcademics .rightList{
         background-color: #F0F3F4;
+        padding-top: 3vh;
     }
 
     .popUpAcademics .rightList a{
         color: #003262;
-        font-size: 17px;
+        font-size: 2vh;
     }
 
     .popUpAcademics .btn1{
@@ -173,6 +193,8 @@ body{
 
     .popUpAcademics .leftPic img{
         box-shadow: rgb(150, 148, 148, 0.5) 1px 1px 5px;
+        height: 50vh;
+        width: 40vh;
     }
 
 /* Pop Up Academics ends*/
@@ -220,26 +242,30 @@ body{
     font-family: leagueSpartan;
 }
 
+.black .img1{
+    height: 35vh;
+}
+
 .black h1{
-    font-size: 500%;
+    font-size: 10vh;
     color: white;
 }
 
 .black h2{
-    font-size: 200%;
+    font-size: 5vh;
     color: white;
 }
 
 .black h3{
-    font-size: 150%;
+    font-size: 3vh;
     position: relative;
     color: white;
-    top: 80px;
+    top: 15vh;
 }
 
 .downArrow{
     position: relative;
-    top: 11vh;
+    top: 15vh;
     animation: moveUpDown 1.5s forwards;
     animation-iteration-count: infinite;    
 }
@@ -254,18 +280,19 @@ body{
 }
 
 .Div1 h1{
-    font-size: 250%;
+    font-size: 6vh;
+    padding-top: 5vh;
     font-family: leagueSpartan;
     color: #003262;
 }
 
 .div1-1{
-    margin: 10px;
+    margin: 1vh;
     height: 39vh;
 }
 
 .div1-2{
-    margin: 10px;
+    margin: 1vh;
     height: 30vh;
 }
 
@@ -317,7 +344,7 @@ body{
 
     .black2 p2, .black2 p1{
         position: relative;
-        top: 30%;
+        top: 8vh;
         font-family: leagueSpartan;
         font-size: 4vh;
         color: #003262;
@@ -325,7 +352,7 @@ body{
     }
 
     .black2 p1{
-        font-size: 34px;
+        font-size: 6vh;
     }
 
 /* black film 2 ends*/
@@ -341,7 +368,7 @@ body{
 }
 
 .div1-1-1 p{
-    font-size: 100%;
+    font-size: 2.5vh;
     color: white;
     position: relative;
     top: -50%;
@@ -352,25 +379,25 @@ body{
 }
 
 .div1-1-2-1{
-    margin-bottom: 4%;
+    margin-bottom: 1.5vh;
 }
 
 .div1-1-2-1 h1{
     color: white;
-    font-size: 15px;
+    font-size: 3vh;
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
-    top: 30%;
+    top: 1vh;
 }
 
 .div1-1-2-1 h2{
     color: white;
-    font-size: 25px;
+    font-size: 4.5vh;
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
-    top: 20%;
+    top: -1.5vh;
 }
 
 .div1-1 .div1-1-2-1{
@@ -385,27 +412,28 @@ body{
 
 .div1-1-2-2 h1{
     color: #003262;
-    font-size: 20px;
+    font-size: 4vh;
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
-    top: 28%;
+    top: 0vh;
 }
 
 .div1-1-2-2 h2{
     color: #003262;
-    font-size: 18px;
+    font-size: 3.5vh;
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
-    top: 18%;
+    top: -2.5vh;
 }
 
 .div1-1-3 .head{
     height: 15%;
     color: white;
     background: #003262;
-    font-size: 20px;
+    font-size: 3vh;
+    padding-top: 1vh;
     text-transform: uppercase;
     font-family: leagueSpartan;
 }
@@ -413,13 +441,17 @@ body{
 .div1-1-3 .content{
     height: 70%;
     font-size: 2vh;
+    padding-top: 8vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
 }
 
 .div1-1-3 .footer{
     height: 15%;
     color: white;
     background: #003262;
-    font-size: 15px;
+    padding-top: 1.2vh;
+    font-size: 2vh;
     font-family: helvetica;
 }
 
@@ -513,7 +545,7 @@ body{
 /*positions*/
 
     .div2-3 p1, .div2-3 p2, .div2-1 p1, .div2-1 p2{
-        left: 38%;
+        left: 26vh;
     }
 
 /*positions ends*/
@@ -523,17 +555,17 @@ body{
 }
 
 .div2-1{
-    height: 40vh;
+    height: 45vh;
 }
 
 .div2-2{
-    height: 80vh;
+    height: 90vh;
 }
 
 .div2-3{
     position: relative;
-    top: -40vh;
-    height: 40vh;
+    top: -45vh;
+    height: 45vh;
 }
 
 .div2-1 .card, .div2-2 .card, .div2-3 .card{
@@ -543,22 +575,22 @@ body{
 /* Contents position */
 
     .reImg{
-        height: 200px;
-        width: 350px;
-
+        height: 25vh;
+        width: 25vw;
     }
 
     .profImg2{
-        height: 130px;
-        width: 100px;
+        height: 15vh;
+        width: 5vw;
         position: relative;
-        left: -150px;
-        top: -150px;
+        left: -11vw;
+        top: -12vh;
     }
 
     .reP{
         position: relative;
-        top: -130px;
+        top: -8vh;
+        font-size: 2vh;
     }
 
     .reImg, .profImg2, .reP{
@@ -572,8 +604,10 @@ body{
 
     .profImg3{
         position: relative !important;
-        left: 0px;
-        top: 10px;        
+        height: 28vh;
+        width: 10vw;
+        left: 1.5vw;
+        top: 2.5vh;
     }
 
     .alP{
@@ -581,8 +615,8 @@ body{
         padding: 2px;
         font-size: 2vh;
         position: relative;
-        left: 35%;
-        top: -15vh;
+        left: 12.5vw;
+        top: -16vh;
     }
 
     .profImg3, .alP{
@@ -593,7 +627,7 @@ body{
 
 .carousel-control-next-icon, .carousel-control-prev-icon{
     position: relative;
-    top: -80px;
+    top: -10vh;
     left: 20px;
     height: 20px;
     width: 20px;
@@ -601,7 +635,7 @@ body{
     border-style: solid;
     border-color: grey;
     border-radius: 15px;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .carousel-control-prev-icon{
@@ -612,18 +646,20 @@ body{
 /*Quuick links tab*/
     .qlMenu{
         background-color: white;
-        height: 400px;
-        width: 300px;
+        height: 60vh;
+        width: 50vh;
         position: absolute;
-        left: -300px;
+        left: -50vh;
         top: 220vh;
         border: white 1px solid;
         z-index: 5;
+        font-size: 2.1vh;
     }
 
     .qlMenu .card-title{
         background-color: #003262;
-        font-size: 30px;
+        font-size: 4vh;
+        padding-top: 1vh;
         font-weight: bold;
         font-family: glacialindifference;
         color: white;
@@ -631,13 +667,13 @@ body{
 
     .qlTab{
         background-color: rgb(207, 204, 204);
-        height: 400px;
-        width: 50px;
+        height: 60vh;
+        width: 7vh;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         position: absolute;
         top: 220vh;
-        left: 0px;
+        left: 0vh;
         z-index: 5;
     }
 
@@ -645,20 +681,20 @@ body{
         width: 150px;
         transform: rotate(90deg);
         position: relative;
-        top: 180px;
-        left: -50px;
+        top: 26vh;
+        left: -55px;
         font-family: glacialindifference;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 4vh;
         color: #003262;
     }
 
     .qlTab img{
         transform: rotate(-90deg);
-        height: 40px;
+        height: 5vh;
         position: relative;
-        top: 130px;
-        left: 60px;
+        top: 19vh;
+        left: 7vh;
     }
 
     .qlTab:hover{
@@ -667,37 +703,37 @@ body{
 
     @keyframes slideIn1{
         from{
-            left: 0px;
+            left: 0vh;
         }       
         to{
-            left: 300px;
+            left: 50vh;
         }
     }
 
     @keyframes slideOut1{
         from{
-            left: 300px;
+            left: 50vh;
         }       
         to{
-            left: 0px;
+            left: 0vh;
         }
     }
 
     @keyframes slideIn2{
         from{
-            left: -300px;
+            left: -50vh;
         }       
         to{
-            left: 0px;
+            left: 0vh;
         }
     }
 
     @keyframes slideOut2{
         from{
-            left: 0px;
+            left: 0vh;
         }       
         to{
-            left: -300px;
+            left: -50vh;
         }
     }
 
@@ -753,12 +789,18 @@ body{
     font-family: leagueSpartan;
     text-transform: uppercase;
     color: #003262;
+    font-size: 5vh;
 }
 
 #carouselExampleControlsVideo .carousel-control-next-icon, #carouselExampleControlsVideo .carousel-control-prev-icon{
-    top: 0px;
+    top: -5vh;
     background-color: black;
     opacity: 1;
+}
+
+iframe{
+    height: 65vh;
+    width: 60vw;
 }
 
 /*Div3 ends*/
@@ -770,21 +812,42 @@ body{
     color: #003262;
 }
 
+.Div4 h1{
+    font-size: 5vh;
+}
+
+.Div4 .carousel-inner{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+.Div4 .carousel-item img{
+    background: #003262;
+    box-shadow: rgb(150, 148, 148, 0.5) 2px 2px 2px;
+}
+
 .controlBtn1-1, .controlBtn1-2{
-    top: 140px;
+    top: 18vh;
 }
 
 .controlBtn1-1{
-    left: 100px;
+    left: 10vh;
 }
 
 .controlBtn1-2{
-    right: 100px;
+    right: 10vh;
 }
 
 .controlBtn1-1 .carousel-control-prev-icon, .controlBtn1-2 .carousel-control-next-icon{
-    width: 30px;
-    height: 30px;
+    width: 5vh;
+    height: 5vh;
+}
+
+#carouselExampleControls4 img{
+    height: 15vh;
+    width: 25vh;
 }
 
 .Div5{
@@ -793,21 +856,23 @@ body{
 }
 
 .Div5Cont p{
-    font-size: 25px;
+    font-size: 3vh;
     font-weight: bold;
     color: white;
     font-family: glacialIndifference;
 }
 
 .Div5Cont a{
-    font-size: 16px;
+    font-size: 2vh;
     font-weight: normal;
     color: white;
     font-family: glacialIndifference;
+    background: #003262;
+    margin-top: 1vh;
 }
 
 .Div5ContP{
-    font-size: 15px !important;
+    font-size: 2vh !important;
 }
 
 .Div5Cont img:hover{
@@ -816,11 +881,11 @@ body{
 }
 
 .hrSpl{
-    width: 40px;
-    height: 3px;
+    width: 2vw;
+    height: 0.4vh;
     background-color: white;
     position: relative;
-    top: -10px;
-    left: -105px;
+    top: -2vh;
+    margin: 0px;
 }
 
